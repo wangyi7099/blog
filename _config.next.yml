@@ -1,0 +1,196 @@
+#################################################################
+###################### NexT Configuration #######################
+#################################################################
+
+# ============================================================= #
+# ============= Theme Core Configuration Settings ============= #
+# ============================================================= #
+
+custom_file_path:
+  sidebar: source/_data/sidebar.njk
+  footer: source/_data/footer.njk
+  variable: source/_data/variables.styl
+  style: source/_data/styles.styl
+
+# ============================================================= #
+# ====================== Scheme Settings ====================== #
+# ============================================================= #
+
+#scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+scheme: Gemini
+
+darkmode: true
+
+# ============================================================= #
+# ================= Site Information Settings ================= #
+# ============================================================= #
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+
+# ============================================================= #
+# ======================= Menu Settings ======================= #
+# ============================================================= #
+
+menu:
+  home: / || fa fa-bell
+  open-source: /open-srouces/ || fa fa-flask
+  archives: /archives/ || fa fa-archive
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+
+menu_settings:
+  icons: true
+  badges: true
+
+# ============================================================= #
+# ===================== Sidebar Settings ====================== #
+# ============================================================= #
+
+sidebar:
+  position: left
+  display: post
+  padding: 18
+  offset: 12
+
+# avatar:
+#   url: /images/logo.svg
+#   rounded: true
+
+social:
+  GitHub: https://github.com/wangyi7099 || fab fa-github
+  Weibo: https://weibo.com/u/1561751741 || fab fa-weibo
+
+social_icons:
+  enable: true
+  icons_only: true
+  transition: true
+
+toc:
+  enable: true
+  number: true
+  wrap: true
+
+# ============================================================= #
+# ====================== Footer Settings ====================== #
+# ============================================================= #
+
+footer:
+  since: 2014
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#808080"
+  copyright: wangyi7099
+
+# ============================================================= #
+# ======================= Post Settings ======================= #
+# ============================================================= #
+
+post_meta:
+  updated_at:
+    enable: false
+
+symbols_count_time:
+  separated_meta: true
+  item_text_total: true
+
+post_edit:
+  enable: true
+  url: https://github.com/wangyi7099/blog/edit/master/source/
+
+# ============================================================= #
+# ==================== Misc Theme Settings ==================== #
+# ============================================================= #
+
+mobile_layout_economy: true
+
+codeblock:
+  theme:
+    light: default
+    dark: tomorrow-night
+  copy_button:
+    enable: true
+    style: default
+
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+github_banner:
+  enable: true
+  permalink: https://github.com/wangyi7099/blog
+  title: Fork Blog on GitHub
+
+# ============================================================= #
+# ======================= SEO Settings ======================== #
+# ============================================================= #
+
+index_with_subtitle: true
+
+exturl: true
+
+# ============================================================= #
+# =============== Third Party Services Settings =============== #
+# ============================================================= #
+
+math:
+  mathjax:
+    enable: true
+    tags: ams
+
+pjax: true
+
+mediumzoom: true
+
+# ============================================================= #
+# =================== Comments and Widgets ==================== #
+# ============================================================= #
+
+comments:
+  lazyload: true
+
+disqus:
+  enable: true
+  shortname: next-theme
+  count: true
+
+# ============================================================= #
+# ====================== Search Services ====================== #
+# ============================================================= #
+
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+
+# ============================================================= #
+# ======================== Tag Plugins ======================== #
+# ============================================================= #
+
+note:
+  style: simple
+  icons: true
+  light_bg_offset: -3
+
+tabs:
+  transition:
+    tabs: true
+    labels: true
+
+mermaid:
+  enable: true
+
+# ============================================================= #
+# ==================== External Libraries ===================== #
+# ============================================================= #
+
+motion:
+  async: true
+
+vendors:
+  internal: jsdelivr
